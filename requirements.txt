@@ -1,0 +1,28 @@
+# TTPort — Python dependencies for profiling benchmarks (CPU + TTNN).
+#
+# Create / activate a venv, then:
+#   pip install -U pip
+#   pip install -r requirements.txt
+#
+# PyTorch: CPU wheels install by default. For CUDA, install the matching torch
+# build from https://pytorch.org/get-started/locally/ before or after this file.
+#
+# ttnn: Use the wheel / index Tenstorrent documents for your OS and device
+# software version; the line below may need to be replaced with a pinned URL.
+
+# --- Core (aligned with upstream DREAMPlace Python needs) ---
+numpy>=1.15.4
+scipy>=1.1.0
+torch>=2.0.0
+matplotlib>=2.2.2
+cairocffi>=0.9.0
+pkgconfig>=1.4.0
+setuptools>=39.1.0
+shapely>=1.7.0
+pyunpack>=0.1.2
+patool>=1.12
+torch_optimizer==0.3.0
+ncg_optimizer==0.2.2
+
+# --- Tenstorrent (TTNN + Metal host; required for TTNN / v6 kernel paths) ---
+ttnn>=0.60.0
