@@ -1,0 +1,96 @@
+- kernel:
+    watcher_kernel_id: 2
+    name: cq_dispatch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch/7741270203584675155/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch.cpp
+    program_id: 0
+- kernel:
+    watcher_kernel_id: 3
+    name: cq_dispatch_subordinate
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch_subordinate/1206117904758755792/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch_subordinate.cpp
+    program_id: 0
+- kernel:
+    watcher_kernel_id: 1
+    name: cq_prefetch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_prefetch/8286447798768557957/
+    source: tt_metal/impl/dispatch/kernels/cq_prefetch.cpp
+    program_id: 0
+- kernel:
+    watcher_kernel_id: 4
+    name: reader_bmm_tile_layout_in0_sender_padding
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_sender_padding/1560141730225770971/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in0_sender_padding.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 8
+    name: reader_bmm_tile_layout_in1_receiver_writer_padding
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_receiver_writer_padding/16600590607030891485/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in1_receiver_writer_padding.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 9
+    name: reader_bmm_tile_layout_in0_receiver
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_receiver/6202377492087183887/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in0_receiver.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 5
+    name: reader_bmm_tile_layout_in1_sender_writer_padding
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_sender_writer_padding/5452343770730718529/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in1_sender_writer_padding.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 6
+    name: reader_bmm_tile_layout_in1_receiver_writer_padding
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_receiver_writer_padding/17911004824722098472/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in1_receiver_writer_padding.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 7
+    name: reader_bmm_tile_layout_in0_receiver
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_receiver/8411560465124907518/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/dataflow/reader_bmm_tile_layout_in0_receiver.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 10
+    name: bmm_large_block_zm_fused_bias_activation
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/bmm_large_block_zm_fused_bias_activation/14187609869545659670/
+    source: ttnn/cpp/ttnn/operations/matmul/device/kernels/compute/bmm_large_block_zm_fused_bias_activation.cpp
+    program_id: 1
+- kernel:
+    watcher_kernel_id: 11
+    name: writer_interleaved_no_bcast
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/writer_interleaved_no_bcast/1015520413336676821/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/writer_interleaved_no_bcast.cpp
+    program_id: 3
+- kernel:
+    watcher_kernel_id: 13
+    name: reader_interleaved_no_bcast
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_interleaved_no_bcast/10623742419271497676/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels_ng/dataflow/reader_interleaved_no_bcast.cpp
+    program_id: 3
+- kernel:
+    watcher_kernel_id: 12
+    name: eltwise_binary_sfpu_no_bcast
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_no_bcast/9003046652096987821/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_no_bcast.cpp
+    program_id: 3
+- kernel:
+    watcher_kernel_id: 16
+    name: reader_interleaved_no_bcast
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_interleaved_no_bcast/13664021715071783527/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/dataflow/reader_interleaved_no_bcast.cpp
+    program_id: 5
+- kernel:
+    watcher_kernel_id: 14
+    name: writer_interleaved_scalar
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/writer_interleaved_scalar/16602672179693015729/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/dataflow/writer_interleaved_scalar.cpp
+    program_id: 5
+- kernel:
+    watcher_kernel_id: 15
+    name: eltwise_binary_sfpu_scalar
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_scalar/14811925365139294778/
+    source: ttnn/cpp/ttnn/operations/eltwise/binary_ng/device/kernels/compute/eltwise_binary_sfpu_scalar.cpp
+    program_id: 5

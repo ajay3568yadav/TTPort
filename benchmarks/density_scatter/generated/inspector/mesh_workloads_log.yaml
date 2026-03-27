@@ -1,0 +1,90 @@
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584619904417622
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584619904534742
+- mesh_workload_created:
+    mesh_workload_id: 34
+    timestamp_ns: 1774584619911912728
+- mesh_workload_add_program:
+    mesh_workload_id: 34
+    program_id: 72
+    timestamp_ns: 1774584619912085896
+    coordinates:
+      - [0, 0]
+- mesh_workload_set_metadata:
+    mesh_workload_id: 34
+    name: GenericOpDeviceOperation
+    parameters: '[0]: Tensor(storage=DeviceStorage(),tensor_spec=TensorSpec(logical_shape=Shape([3472, 512]),tensor_layout=TensorLayout(dtype=DataType::FLOAT32,page_config=PageConfig(config=RowMajorPageConfig(tile=Tile(tile_shape={32, 32},face_shape={16, 16},num_faces=4))),memory_config=MemoryConfig(memory_layout=TensorMemoryLayout::INTERLEAVED,buffer_type=BufferType::DRAM,shard_spec=std::nullopt,nd_shard_spec=std::nullopt,created_with_nd_shard_spec=0),alignment=Alignment([1])))), [1]: Tensor(storage=DeviceStorage(),tensor_spec=TensorSpec(logical_shape=Shape([28672, 512]),tensor_layout=TensorLayout(dtype=DataType::FLOAT32,page_config=PageConfig(config=RowMajorPageConfig(tile=Tile(tile_shape={32, 32},face_shape={16, 16},num_faces=4))),memory_config=MemoryConfig(memory_layout=TensorMemoryLayout::INTERLEAVED,buffer_type=BufferType::DRAM,shard_spec=std::nullopt,nd_shard_spec=std::nullopt,created_with_nd_shard_spec=0),alignment=Alignment([1])))), [2]: Tensor(storage=DeviceStorage(),tensor_spec=TensorSpec(logical_shape=Shape([28672, 512]),tensor_layout=TensorLayout(dtype=DataType::FLOAT32,page_config=PageConfig(config=RowMajorPageConfig(tile=Tile(tile_shape={32, 32},face_shape={16, 16},num_faces=4))),memory_config=MemoryConfig(memory_layout=TensorMemoryLayout::INTERLEAVED,buffer_type=BufferType::DRAM,shard_spec=std::nullopt,nd_shard_spec=std::nullopt,created_with_nd_shard_spec=0),alignment=Alignment([1]))))'
+    timestamp_ns: 1774584619912165776
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: InFlight
+    timestamp_ns: 1774584620801603338
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584620801795987
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620853936515
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854155364
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854288893
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854462961
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854544501
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854760399
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620854944938
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620855101557
+- mesh_workload_destroyed:
+    mesh_workload_id: 0
+    timestamp_ns: 1774584620855352825
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584620860730826
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584620916444298
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584621034496164
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584621159569190
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584621290302733
+- mesh_workload_set_program_binary_status:
+    mesh_workload_id: 34
+    mesh_id: 7
+    status: Committed
+    timestamp_ns: 1774584621418173708
+- mesh_workload_destroyed:
+    mesh_workload_id: 34
+    timestamp_ns: 1774584621547979168

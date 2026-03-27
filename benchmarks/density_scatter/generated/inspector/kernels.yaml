@@ -1,0 +1,24 @@
+- kernel:
+    watcher_kernel_id: 2
+    name: cq_dispatch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch/7741270203584675155/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch.cpp
+    program_id: 71
+- kernel:
+    watcher_kernel_id: 1
+    name: cq_prefetch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_prefetch/8286447798768557957/
+    source: tt_metal/impl/dispatch/kernels/cq_prefetch.cpp
+    program_id: 71
+- kernel:
+    watcher_kernel_id: 3
+    name: cq_dispatch_subordinate
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch_subordinate/1206117904758755792/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch_subordinate.cpp
+    program_id: 71
+- kernel:
+    watcher_kernel_id: 4
+    name: density_scatter_v6
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/density_scatter_v6/8732169483457327891/
+    source: /home/ubuntu/ayadav/TT_Port/TTPlace/TTPort/tt_kernels/density_scatter_v6.cpp
+    program_id: 72

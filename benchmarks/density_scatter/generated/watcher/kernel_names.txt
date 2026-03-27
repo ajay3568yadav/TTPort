@@ -1,0 +1,5 @@
+0: blank
+1: tt_metal/impl/dispatch/kernels/cq_prefetch.cpp
+2: tt_metal/impl/dispatch/kernels/cq_dispatch.cpp
+3: tt_metal/impl/dispatch/kernels/cq_dispatch_subordinate.cpp
+4: /home/ubuntu/ayadav/TT_Port/TTPlace/TTPort/tt_kernels/density_scatter_v6.cpp

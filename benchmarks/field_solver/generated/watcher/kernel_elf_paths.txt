@@ -1,0 +1,17 @@
+0: blank
+2: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch/7741270203584675155//brisc/brisc.elf
+3: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch_subordinate/1206117904758755792//ncrisc/ncrisc.elf
+1: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_prefetch/8286447798768557957//brisc/brisc.elf
+10: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/bmm_large_block_zm_fused_bias_activation/14187609869545659670//trisc0/trisc0.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/bmm_large_block_zm_fused_bias_activation/14187609869545659670//trisc1/trisc1.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/bmm_large_block_zm_fused_bias_activation/14187609869545659670//trisc2/trisc2.elf
+5: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_sender_writer_padding/5452343770730718529//brisc/brisc.elf
+7: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_receiver/8411560465124907518//ncrisc/ncrisc.elf
+4: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_sender_padding/1560141730225770971//ncrisc/ncrisc.elf
+8: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_receiver_writer_padding/16600590607030891485//brisc/brisc.elf
+9: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in0_receiver/6202377492087183887//ncrisc/ncrisc.elf
+6: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_bmm_tile_layout_in1_receiver_writer_padding/17911004824722098472//brisc/brisc.elf
+13: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_interleaved_no_bcast/10623742419271497676//ncrisc/ncrisc.elf
+11: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/writer_interleaved_no_bcast/1015520413336676821//brisc/brisc.elf
+12: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_no_bcast/9003046652096987821//trisc0/trisc0.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_no_bcast/9003046652096987821//trisc1/trisc1.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_no_bcast/9003046652096987821//trisc2/trisc2.elf
+16: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/reader_interleaved_no_bcast/13664021715071783527//ncrisc/ncrisc.elf
+14: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/writer_interleaved_scalar/16602672179693015729//brisc/brisc.elf
+15: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_scalar/14811925365139294778//trisc0/trisc0.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_scalar/14811925365139294778//trisc1/trisc1.elf:/home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/eltwise_binary_sfpu_scalar/14811925365139294778//trisc2/trisc2.elf

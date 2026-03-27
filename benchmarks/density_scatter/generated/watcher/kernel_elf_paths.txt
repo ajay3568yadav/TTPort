@@ -1,0 +1,5 @@
+0: blank
+2: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch/7741270203584675155//brisc/brisc.elf
+1: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_prefetch/8286447798768557957//brisc/brisc.elf
+3: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch_subordinate/1206117904758755792//ncrisc/ncrisc.elf
+4: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/density_scatter_v6/8732169483457327891//ncrisc/ncrisc.elf

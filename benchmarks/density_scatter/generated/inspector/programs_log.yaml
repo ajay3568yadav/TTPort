@@ -1,0 +1,97 @@
+- program_created:
+    id: 71
+    timestamp_ns: 1774584619885718609
+- program_compile_started:
+    id: 71
+    timestamp_ns: 1774584619886239215
+- program_kernel_compile_finished:
+    id: 71
+    timestamp_ns: 1774584619886483704
+    duration_ns: 244489
+    watcher_kernel_id: 2
+    name: cq_dispatch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch/7741270203584675155/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch.cpp
+- program_kernel_compile_finished:
+    id: 71
+    timestamp_ns: 1774584619886534823
+    duration_ns: 295608
+    watcher_kernel_id: 1
+    name: cq_prefetch
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_prefetch/8286447798768557957/
+    source: tt_metal/impl/dispatch/kernels/cq_prefetch.cpp
+- program_kernel_compile_finished:
+    id: 71
+    timestamp_ns: 1774584619886574563
+    duration_ns: 335348
+    watcher_kernel_id: 3
+    name: cq_dispatch_subordinate
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/cq_dispatch_subordinate/1206117904758755792/
+    source: tt_metal/impl/dispatch/kernels/cq_dispatch_subordinate.cpp
+- program_compile_finished:
+    id: 71
+    timestamp_ns: 1774584619886789831
+    duration_ns: 550616
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584619904431442
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584619904537542
+- program_created:
+    id: 72
+    timestamp_ns: 1774584619911950917
+- program_created:
+    id: 73
+    timestamp_ns: 1774584619912095436
+- program_destroyed:
+    id: 73
+    timestamp_ns: 1774584619912099536
+- program_compile_started:
+    id: 72
+    timestamp_ns: 1774584619912179266
+- program_kernel_compile_finished:
+    id: 72
+    timestamp_ns: 1774584620801043122
+    duration_ns: 888863856
+    watcher_kernel_id: 4
+    name: density_scatter_v6
+    path: /home/ubuntu/.cache/tt-metal-cache/e7c251da3b/11358605694596585868/kernels/density_scatter_v6/8732169483457327891/
+    source: /home/ubuntu/ayadav/TT_Port/TTPlace/TTPort/tt_kernels/density_scatter_v6.cpp
+- program_compile_finished:
+    id: 72
+    timestamp_ns: 1774584620801276151
+    duration_ns: 889096885
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620853944525
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854159104
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854292503
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854466241
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854548111
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854765209
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620854947808
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620855104797
+- program_destroyed:
+    id: 0
+    timestamp_ns: 1774584620855356685
+- program_destroyed:
+    id: 71
+    timestamp_ns: 1774584621543706759
+- program_destroyed:
+    id: 72
+    timestamp_ns: 1774584621547987788
