@@ -47,7 +47,10 @@ TTPort/
 
 ```bash
 cd TTPort
-bash setup.sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt
 ```
 
 This makes TTPort **fully self-contained** — no files outside this folder are
@@ -58,14 +61,6 @@ needed after this runs. The script:
 - Verifies all key imports and prints an `[OK]` / `[!!]` table
 
 **On a fresh machine** (no pre-built DREAMPlace available):
-
-```bash
-# Falls back automatically to building from the C++ sources included in TTPort:
-bash setup.sh
-
-# Or explicitly:
-bash setup.sh --source-only
-```
 
 The `build_extensions.py` script (called automatically by `setup.sh`) compiles
 the 6 needed extensions from the C++ sources in `dreamplace_ref/.../src/` using
